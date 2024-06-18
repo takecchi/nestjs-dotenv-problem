@@ -1,0 +1,14 @@
+{
+  "name": "nestjs-dotfile-problem",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "workspaces": [
+    "packages/backend"
+  ],
+  "scripts": {
+    "start:dev": "npm run start:dev -w backend"
+  }
+}
