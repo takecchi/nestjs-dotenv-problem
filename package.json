@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-dotfile-problem",
+  "name": "nestjs-dotenv-problem",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -10,5 +10,9 @@
   ],
   "scripts": {
     "start:dev": "docker-compose up -d && npm run start:dev -w backend"
+  },
+  "volta": {
+    "node": "20.14.0",
+    "npm": "10.8.1"
   }
 }
