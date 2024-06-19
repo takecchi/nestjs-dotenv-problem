@@ -9,6 +9,6 @@
     "packages/backend"
   ],
   "scripts": {
-    "start:dev": "npm run start:dev -w backend"
+    "start:dev": "docker-compose up -d && npm run start:dev -w backend"
   }
 }
